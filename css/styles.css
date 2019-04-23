@@ -1,0 +1,26 @@
+/**
+ * Elements
+ * -----------------------------------------------------
+ */
+
+/**
+ * Classes
+ * -----------------------------------------------------
+ */
+.bg-image {
+    background: url(../images/daniel-kim-1532790-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 103%;
+    height: 120%;
+    position: fixed;
+    z-index: 1;
+    opacity: .7;
+}
+
+.full-height {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
