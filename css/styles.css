@@ -3,24 +3,112 @@
  * -----------------------------------------------------
  */
 
+ * { 
+     box-sizing: border-box;
+     padding: 0;
+ }
+
+ body {
+    font-family: "europa", serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+ }
+
+ div {
+     display: block;
+ }
+
+ p {
+    font-family: "europa", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3f3f3f;
+    letter-spacing: 0;
+    margin: 0;
+    line-height: 1.5;
+ }
+
+h1 {
+    font-family: "europa", serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #000;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: .0001em;
+    z-index: 2;
+}
 /**
  * Classes
  * -----------------------------------------------------
  */
 .bg-image {
-    background: url(../images/daniel-kim-1532790-unsplash.jpg);
+    background: url(../images/max-letek-1527301-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: 50% 50%;
     width: 103%;
     height: 120%;
     position: fixed;
-    z-index: 1;
-    opacity: .7;
+    opacity: .6;
 }
 
 .full-height {
     height: 100%;
     width: 100%;
     position: relative;
+}
+
+p.top-titles {
+    font-family: "europa", serif;
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.pin-scene {
+    position: fixed;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    bottom: auto;
+    right: auto;
+    box-sizing: border-box;
+    width: 210px; 
+}
+
+.scroll-magic {
+    top: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    margin: 0px;
+    display: block;
+    position: relative;
+    box-sizing: content-box;
+    min-height: 0px;
+    height: 0px;
+    padding-top: 50px;
+    padding-bottom: 985px;
+}
+
+.title-main {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: 100%;
+    padding: 0 25px;
+    z-index: 5;
+}
+
+.title-main h1 {
+    text-align: center;
 }
