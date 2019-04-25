@@ -11,11 +11,6 @@
  * elements
  * -----------------------------------------------------
  */
- * { 
-     box-sizing: border-box;
-     padding: 0;
- }
-
  body {
     font-family: "europa", serif;
     font-size: 1rem;
@@ -24,8 +19,8 @@
  }
 
  div {
-     display: block;
- }
+    display: block;
+}
 
  p {
     font-family: "europa", serif;
@@ -54,42 +49,34 @@ h1 {
  * classes
  * -----------------------------------------------------
  */
+
 .bg-image {
-    background: url(../images/max-letek-1527301-unsplash.jpg);
-    background-repeat: no-repeat;
+    background: #fff url(../images/max-letek-1527301-unsplash.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
-    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
     width: 103%;
     height: 120%;
-    position: fixed;
+    min-height: 1520px;
+    display: table;
+    position: relative;
     opacity: .6;
 }
 
 .full-height {
     height: 100%;
     width: 100%;
-    position: relative;
-}
-
-.pin-scene {
-    position: fixed;
-    margin: auto;
-    top: 0px;
-    left: 0px;
-    bottom: auto;
-    right: auto;
-    box-sizing: border-box;
-    width: 210px; 
 }
 
 /**
  * homepage
  * -----------------------------------------------------
  */
- .homepage {
+ #title {
      background-color: #fff;
      color: #3f3f3f;
-     padding: 0;
  }
 
 p.top-titles {
@@ -105,7 +92,7 @@ p.top-titles {
 }
 
 .title-main {
-    position: fixed;
+    position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -171,32 +158,32 @@ p.top-titles {
     padding: 20px 20px;
 }
 
-.scroll-magic {
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto;
-    margin: 0px;
-    display: block;
-    position: relative;
-    box-sizing: content-box;
-    min-height: 0px;
-    height: 0px;
-    padding-top: 50px;
-    padding-bottom: 985px;
-}
-
 /**
  * about me
  * -----------------------------------------------------
  */
-
+#about {
+    background-color: #fff;
+    color: #3f3f3f;
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+    width: 100%;
+    position: relative;
+    margin-bottom: 3rem;
+}
 
 /**
  * portfolio
  * -----------------------------------------------------
  */
-
+ #portfolio {
+    background-color: lightgray;
+    color: #3f3f3f;
+    padding: 27% 35%;
+    width: 100%;
+    opacity: 0.7;
+    position: relative;
+}
 
 /**
  * footer
