@@ -1,26 +1,12 @@
-/**
- * sections/headers
- * -----------------------------------------------------
- */
-.section-header {
-    font-size: 2rem;
-    line-height: 1.5;
-}
-
- /**
- * elements
- * -----------------------------------------------------
- */
+/***************************************
+*  elements
+***************************************/
  body {
     font-family: "europa", serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
  }
-
- div {
-    display: block;
-}
 
  p {
     font-family: "europa", serif;
@@ -45,78 +31,73 @@ h1 {
     margin: 0;
     z-index: 2;
 }
-/**
- * classes
- * -----------------------------------------------------
- */
+/***************************************
+*  classes
+***************************************/
 
-.bg-image {
-    background: #fff url(../images/max-letek-1527301-unsplash.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    width: 103%;
-    height: 120%;
-    min-height: 1520px;
-    display: table;
-    position: relative;
-    opacity: .6;
-}
+/***************************************
+*  main page
+***************************************/
 
-.full-height {
-    height: 100%;
+ img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
     width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { 
+    bg-img {
+      left: 50%;
+      margin-left: -512px; /* 50% */ 
+    }
+  }
+
+ #title {
+    color: #3f3f3f;
+    opacity: 0.9;
+    text-align: center;
 }
 
-/**
- * homepage
- * -----------------------------------------------------
- */
- #title {
-     background-color: #fff;
-     color: #3f3f3f;
- }
+ .title-main {
+    color: #3f3f3f;
+    font-family: "europa", serif;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    margin: 18rem auto;
+    padding: 0 25px;
+    z-index: 5;
+} 
 
 p.top-titles {
-    font-family: "europa", serif;
-    color: #3f3f3f;
-    text-align: center;
     font-size: 1.2rem;
     font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 0 25px; 
     letter-spacing: .2em;
     text-transform: uppercase;
 }
 
-.title-main {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 100vh;
-    width: 100%;
-    padding: 0 25px;
-    z-index: 5;
-}
 
-.title-main h1 {
-    text-align: center;
-}
-
-.logo-img {
-    height: 70px;
+img.logo {
+    height: 4rem;
     padding: 0px;
     position: relative;
     margin-left: -20px;
-}
+    z-index: 5;
+} 
 
-/**
- * navbar
- * -----------------------------------------------------
- */
+/***************************************
+*  navbar
+***************************************/
 .navbar {
     padding: 0 0 4.5rem 0;
     margin-left: 0;
@@ -141,28 +122,33 @@ p.top-titles {
 
 .nav-item { 
     font-family: "europa", serif;
-    font-size: 1.5 rem;
-    color: #3f3f3f;
+    font-size: 2rem;
+    color: #fff;
 }
 
 .nav-link { 
     font-family: "europa", serif;
-    font-size: 1.5rem;
-    color: #3f3f3f;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 25px; 
+    letter-spacing: .2em;
+    text-transform: uppercase;
+
 }
 
 .navbar-custom {
-    background-color: #fff;
     color: #3f3f3f;
     margin: 0;
     padding: 20px 20px;
+    z-index: 5;
 }
 
-/**
- * about me
- * -----------------------------------------------------
- */
-#about {
+
+/***************************************
+*  about me
+***************************************/
+/* #about {
     background-color: #FAD3A0;
     color: #3f3f3f;
     padding: 12rem 2rem 15rem 2rem;
@@ -182,22 +168,20 @@ p.top-titles {
 
 .profile-text {
     float: right;
-}
+}  */
 
-/**
- * portfolio
- * -----------------------------------------------------
- */
- #portfolio {
+/***************************************
+*  portfolio
+***************************************/
+ /* #portfolio {
     background-color: lightgray;
     color: #3f3f3f;
     padding: 27% 35%;
     width: 100%;
     opacity: 0.7;
     position: relative;
-}
+} */
 
-/**
- * footer
- * -----------------------------------------------------
- */
+/***************************************
+*  footer
+***************************************/
