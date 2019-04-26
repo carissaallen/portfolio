@@ -3,7 +3,7 @@
 ***************************************/
  body {
     font-family: "europa", serif;
-    font-size: 1rem;
+    font-size: .7rem;
     font-style: normal;
     font-weight: 500;
  }
@@ -11,7 +11,7 @@
  p {
     font-family: "europa", serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .5rem;
     color: #3f3f3f;
     letter-spacing: 0;
     margin: 0;
@@ -26,7 +26,7 @@
  }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     color: #000;
     margin: 0;
     z-index: 2;
@@ -73,13 +73,13 @@ h1 {
     text-align: center;
     vertical-align: middle;
     display: table-cell;
-    margin: 18rem auto;
+    margin: 8rem auto;
     padding: 0 25px;
     z-index: 5;
 } 
 
 p.top-titles {
-    font-size: 1.2rem;
+    font-size: .65rem;
     font-weight: 500;
     padding: 0 25px; 
     letter-spacing: .2em;
@@ -88,10 +88,10 @@ p.top-titles {
 
 
 img.logo {
-    height: 4rem;
+    height: 2rem;
     padding: 0px;
-    position: relative;
-    margin-left: -20px;
+    position: static;
+    margin-left: -8px;
     z-index: 5;
 } 
 
@@ -100,10 +100,7 @@ img.logo {
 ***************************************/
 .navbar {
     padding: 0 0 4.5rem 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 0 0 0;
 }
 
 .navbar-nav > li {
@@ -115,20 +112,20 @@ img.logo {
     font-family: "europa", serif;
     font-size: 3rem;
     color: #3f3f3f;
-    line-height: 1.5;
+    line-height: 1;
     letter-spacing: .0001em;
     font-weight: 600;
 }
 
 .nav-item { 
     font-family: "europa", serif;
-    font-size: 2rem;
+    font-size: .5rem;
     color: #fff;
 }
 
 .nav-link { 
     font-family: "europa", serif;
-    font-size: 1.3rem;
+    font-size: .65rem;
     color: #fff;
     font-weight: 500;
     padding: 15px 25px; 
@@ -137,13 +134,22 @@ img.logo {
 
 }
 
+.navbar-toggler {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    height: 1.3rem;
+}
+
 .navbar-custom {
     color: #3f3f3f;
     margin: 0;
-    padding: 20px 20px;
+    padding: 5px 5px;
     z-index: 5;
 }
-
 
 /***************************************
 *  about me
