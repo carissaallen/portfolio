@@ -3,7 +3,7 @@
 ***************************************/
  body {
     font-family: "europa", serif;
-    font-size: .7rem;
+    font-size: .5rem;
     font-style: normal;
     font-weight: 500;
  }
@@ -11,7 +11,7 @@
  p {
     font-family: "europa", serif;
     font-weight: 400;
-    font-size: .5rem;
+    font-size: 10px;
     color: #3f3f3f;
     letter-spacing: 0;
     margin: 0;
@@ -26,7 +26,7 @@
  }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #000;
     margin: 0;
     z-index: 2;
@@ -79,7 +79,7 @@ h1 {
 } 
 
 p.top-titles {
-    font-size: .65rem;
+    font-size: 10px;
     font-weight: 500;
     padding: 0 25px; 
     letter-spacing: .2em;
@@ -125,7 +125,7 @@ img.logo {
 
 .nav-link { 
     font-family: "europa", serif;
-    font-size: .65rem;
+    font-size: 10px;
     color: #fff;
     font-weight: 500;
     padding: 15px 25px; 
@@ -141,6 +141,9 @@ img.logo {
 }
 
 .navbar-toggler-icon {
+    border: none;
+    outline: none;
+    box-shadow: none;
     height: 1.3rem;
 }
 
