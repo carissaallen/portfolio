@@ -37,6 +37,7 @@ h1 {
     z-index: 2;
 }
 
+
 /***************************************
 *  navbar
 ***************************************/
@@ -261,14 +262,22 @@ img.about-image {
 /***************************************
 *  portfolio
 ***************************************/
- /* #portfolio {
-    background-color: lightgray;
-    color: #3f3f3f;
-    padding: 27% 35%;
-    width: 100%;
-    opacity: 0.7;
-    position: relative;
-} */
+ #portfolio {
+     
+
+} 
+
+h2.portfolio-title {
+    font-family: "europa", serif;
+    margin: 0 0 0 0;
+    font-size: 65px;
+    line-height: 1;
+    color: #000;
+    padding: 0px 20px;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+}
 
 /***************************************
 *  footer
