@@ -10,3 +10,4 @@ You know those awesome website templates you can find all over the internet? Thi
 * JavaScript
 
 # Design Inspiration
+* [Milk Is Nice](https://milkisnice.com/)
