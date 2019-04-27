@@ -177,11 +177,10 @@ h2.about-title {
 
 h3.about-title {
     font-size: 30px;
-    margin: 0 0 30px 0;
+    margin: 40px 0 30px 0;
     line-height: 1.5;
     text-align: start;
     color: #000;
-    margin-top: 40px;
 }
 
 .margin-under {
@@ -208,16 +207,56 @@ p.about-title {
 
 }
 
-.profile-image {
-    width: 25%;
-    border-radius: 100%;
-    margin: 20px;
-    align-content: left;
+h5.skills-title {
+    margin: 100px 10px 30px 0px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+    display: block;
+    text-align: center;
 }
 
-.profile-text {
-    float: right;
-} 
+h5.other-skills-title {
+    margin: 60px 10px 30px 0px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+    display: block;
+    text-align: center;
+}
+
+p.skill {
+    font-weight: 400;
+    font-size: 14px;
+    color: #3f3f3f;
+    letter-spacing: 0;
+    margin: 0;
+    line-height: 1.5;
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .floating-skills { display: none; }
+}
+
+img.about-image {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
 
 /***************************************
 *  portfolio
