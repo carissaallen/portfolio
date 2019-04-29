@@ -281,6 +281,10 @@ img.about-image {
 
 } 
 
+#portfolio-title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 h2.portfolio-title {
     font-family: "europa", serif;
     margin: 0 0 0 0;
