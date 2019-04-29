@@ -5,6 +5,20 @@
     box-sizing: border-box;
 } 
 
+a {
+    font-family: "europa", sans-serif;
+    font-weight: 600;
+    color: #3f3f3f;
+    letter-spacing: .001em;
+    text-decoration: none;
+    background: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #b00f24; 
+}
+
 body {
     background-color: #ececec;
     font-family: "europa", serif;
