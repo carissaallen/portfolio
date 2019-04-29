@@ -297,6 +297,27 @@ h2.portfolio-title {
     bottom:0px;
 }
 
+.project-link {
+    text-decoration: none;
+    border-bottom: 2px solid #b00f24;
+    padding: 5px 0;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+p.project-text {
+    background: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.project {
+    position: relative;
+    padding: 3% 2%;
+}
+
 /***************************************
 *  footer
 ***************************************/
