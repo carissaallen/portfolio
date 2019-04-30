@@ -7,10 +7,25 @@
     padding: 0;
 } 
 
+<<<<<<< HEAD
 *,
 *:before,
 *:after {
     box-sizing: inherit;
+=======
+a {
+    font-family: "europa", sans-serif;
+    font-weight: 600;
+    color: #3f3f3f;
+    letter-spacing: .001em;
+    text-decoration: none;
+    background: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #b00f24; 
+>>>>>>> master
 }
 
 body {
@@ -351,6 +366,10 @@ img.about-image {
 
 } 
 
+#portfolio-title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 h2.portfolio-title {
     font-family: "europa", serif;
     margin: 0 0 0 0;
@@ -361,6 +380,27 @@ h2.portfolio-title {
     position:fixed;
     left:0px;
     bottom:0px;
+}
+
+.project-link {
+    text-decoration: none;
+    border-bottom: 2px solid #b00f24;
+    padding: 5px 0;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+p.project-text {
+    background: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.project {
+    position: relative;
+    padding: 3% 2%;
 }
 
 /***************************************
