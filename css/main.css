@@ -87,6 +87,11 @@ h5 {
 /***************************************
 *  layout
 ***************************************/
+.full-height {
+    width: 100%;
+    height: 100%;
+}
+
 .grid-overlay {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -110,8 +115,6 @@ h5 {
 .pad-top {
     padding-top: 200px;
 }
-
-
 
 /***************************************
 *  navbar
@@ -334,14 +337,11 @@ img.about-image {
 /***************************************
 *  portfolio
 ***************************************/
- #portfolio {
+ #portfolio .portfolio-section-1 {
      
 
 } 
 
-#portfolio-title .container-fluid {
-    padding: 3% 15% 7%;
-}
 
 h2.portfolio-title {
     font-family: "europa", serif;
