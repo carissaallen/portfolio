@@ -490,7 +490,6 @@ img.about-image {
 /***************************************
 *  media queries
 ***************************************/
-  
 @media screen and (max-width: 1024px) { 
     bg-img {
       left: 50%;
@@ -578,6 +577,7 @@ img.about-image {
 }
 
 /* portfolio section media queries */
+
 @media only screen and (min-width: 1024px) {
     .project-grid {
         grid-template-rows: repeat(2, 1 fr);
