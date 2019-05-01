@@ -553,3 +553,15 @@ img.about-image {
         margin-bottom: 80px;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .small-title {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1 { 
+        font-size: 38px;
+    }
+}
