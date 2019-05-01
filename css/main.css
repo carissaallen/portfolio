@@ -25,6 +25,7 @@ a {
 a:hover {
     text-decoration: none;
     color: #b00f24; 
+    background: transparent;
 }
 
 body {
@@ -84,9 +85,22 @@ h5 {
     display: block;
 }
 
+.img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: 0;
+}
+
 /***************************************
 *  layout
 ***************************************/
+.full-height {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
 .grid-overlay {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -110,8 +124,6 @@ h5 {
 .pad-top {
     padding-top: 200px;
 }
-
-
 
 /***************************************
 *  navbar
@@ -334,25 +346,85 @@ img.about-image {
 /***************************************
 *  portfolio
 ***************************************/
- #portfolio {
-     
-
-} 
-
-#portfolio-title .container-fluid {
-    padding: 3% 15% 7%;
+.project-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column: 1 / span 12;
 }
 
-h2.portfolio-title {
+.project {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1 / span 12;
+}
+
+.project-info-1 {
+    grid-column: 2 / span 10;
+    grid-row: 1 / span 1;
+    padding: 0; 
+    align-self: end;
+}
+
+.arrowpic {
+    transform: rotate(90deg);
+    width: 100%;
+    align-self: end;
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 1;
+}
+
+/* projects in portfolio page */
+
+.full-height { 
+    height: 100vh;
+    width: 100%;
+}
+
+.project-padding {
+    padding: 60px 0;
+}
+
+.filler-block-right {
+    height: 500px;
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+}
+
+.filler-block {
+    background: #fff;
+    opacity: 0.4;
+}
+
+.project-2 .box {
+    grid-column: 2 / span 10;
+    grid-row: 1;
+    width: 100%;
+}
+
+.project-2 .project-info {
+    grid-column: 2 / span 10;
+    grid-row: 2 / span 1;
+}
+
+.project-info {
+    align-self: center;
+    background: #fff;
+    padding: 20px 20px 30px 20px;
+    justify-items: center;
+}
+
+.small-title {
     font-family: "europa", serif;
-    margin: 0 0 0 0;
-    font-size: 65px;
-    line-height: 1;
-    color: #000;
-    padding: 0px 20px;
-    position:fixed;
-    left:0px;
-    bottom:0px;
+    color: #3f3f3f;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 0;
+    letter-spacing: .2em;
+    text-transform: uppercase;
 }
 
 .project-link {
@@ -363,22 +435,56 @@ h2.portfolio-title {
     transition: .2s;
 }
 
-p.project-text {
-    background: #fff;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: .2em;
-    text-transform: uppercase;
-}
-
-.project {
-    position: relative;
-    padding: 3% 2%;
+.project-pic {
+    max-width: 100%;
 }
 
 /***************************************
 *  footer
 ***************************************/
+.footer {
+    border-top: 1px dashed #666;
+    padding: 30px 0;
+}
+
+.grid-wrapper {
+    display: grid;
+    margin: 0 auto;
+}
+
+.footer .grid-wrapper {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.contact-info {
+    grid-column: 2 / span 6;
+    grid-row: 1;
+}
+
+.contact-info p {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-info p a {
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 2px solid #b00f24;
+    padding: 5px 0;
+}
+
+.footer .social {
+    grid-column: 6 / span 6;
+    grid-row: 1;
+    justify-self: end;
+    align-self: center;
+}
+
+.footer .logo-sm {
+    width: 20px;
+    margin-left: 10px;
+}
 
 /***************************************
 *  media queries
@@ -390,6 +496,8 @@ p.project-text {
       margin-left: -512px; /* 50% */ 
     }
   }
+
+  /* about section media queries */
 
   @media only screen and (min-width: 1024px) {
     #about .about-main-title { 
@@ -465,5 +573,62 @@ p.project-text {
 @media only screen and (min-width: 1024px) {
     #about .about-section-1 {
         visibility: hidden;
+    }
+}
+
+/* portfolio section media queries */
+@media only screen and (min-width: 1024px) {
+    .project-grid {
+        grid-template-rows: repeat(2, 1 fr);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .project-info-1 {
+        grid-column: 9 / span 2;
+        grid-row: 1 / span 1;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .arrowpic {
+        grid-column: 9 / span 1;
+        grid-row: 2 / span 1;
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .project-2 .project-info {
+        grid-column: 2 / span 3;
+        grid-row: 2 / span 1;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .project-info {
+        padding: 20px 20px 30px 20px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .small-title {
+        font-size: 11px;
+    }
+}
+
+/* element media queries */
+
+@media only screen and (min-width: 768px) {
+    h1 { 
+        font-size: 38px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    p {
+        font-size: 16px;
+        line-height: 1.9;
     }
 }
