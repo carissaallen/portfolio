@@ -60,7 +60,7 @@ body {
  }
 
 h1 {
-    font-size: 24px;
+    font-size: 28px;
     color: #000;
     margin: 0;
     z-index: 2;
@@ -149,13 +149,14 @@ h5 {
 
 .nav-item { 
     font-family: "europa", serif;
-    font-size: .5rem;
+    font-size: 11px;
+    font-weight: 500;
     color: #fff;
 }
 
 .nav-link { 
     font-family: "europa", serif;
-    font-size: 10px;
+    font-size: 11px;
     color: #fff;
     font-weight: 500;
     padding: 15px 25px; 
@@ -245,7 +246,7 @@ h5 {
 } 
 
 p.top-titles {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 500;
     padding: 0 25px; 
     letter-spacing: .2em;
@@ -490,12 +491,27 @@ img.about-image {
 /***************************************
 *  media queries
 ***************************************/
+
+/* home page media queries */
+
 @media screen and (max-width: 1024px) { 
     bg-img {
       left: 50%;
       margin-left: -512px; /* 50% */ 
     }
   }
+
+@media screen and (min-width: 1024) {
+    p.titles {
+        font-size: 12px; 
+    }
+}
+
+@media screen and (min-width: 1024) {
+    #title h1 {
+        font-size: 32px; 
+    }
+}
 
   /* about section media queries */
 
