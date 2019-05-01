@@ -97,6 +97,10 @@ h5 {
     z-index: -1;
 }
 
+.grid-overlay { 
+    display: none !important;
+}
+
 .grid-12 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
