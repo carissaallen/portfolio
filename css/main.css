@@ -87,7 +87,7 @@ h5 {
 
 .img {
     max-width: 100%;
-    vertical-align: bottom;
+    vertical-align: bottom !important;
     border: 0;
 }
 
@@ -370,6 +370,7 @@ img.about-image {
 
 .arrowpic {
     transform: rotate(90deg);
+    margin-bottom: 35px;
     width: 100%;
     align-self: end;
     grid-column: 2 / span 2;
