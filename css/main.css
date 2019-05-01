@@ -7,21 +7,12 @@
     padding: 0;
 } 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 4b562feb61a204fb0949359e6690c6664b22285b
 *,
 *:before,
 *:after {
     box-sizing: inherit;
-<<<<<<< HEAD
-=======
-=======
 }
 
->>>>>>> 4b562feb61a204fb0949359e6690c6664b22285b
 a {
     font-family: "europa", sans-serif;
     font-weight: 600;
@@ -34,11 +25,6 @@ a {
 a:hover {
     text-decoration: none;
     color: #b00f24; 
-<<<<<<< HEAD
->>>>>>> master
-=======
-
->>>>>>> 4b562feb61a204fb0949359e6690c6664b22285b
 }
 
 body {
