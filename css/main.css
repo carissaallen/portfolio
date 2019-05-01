@@ -345,11 +345,27 @@ img.about-image {
 /***************************************
 *  portfolio
 ***************************************/
- #portfolio .portfolio-section-1 {
-     
+.project-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column: 1 / span 12;
+}
 
-} 
+.project {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1 / span 12;
+}
 
+.project-info-1 {
+    grid-column: 2 / span 10;
+    grid-row: 1 / span 1;
+    padding: 0; 
+    align-self: end;
+}
 
 h2.portfolio-title {
     font-family: "europa", serif;
