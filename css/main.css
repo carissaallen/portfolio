@@ -376,9 +376,58 @@ img.about-image {
     grid-row: 3 / span 1;
 }
 
+/* projects in portfolio page */
 
+.full-height { 
+    height: 100vh;
+    width: 100%;
+}
 
-/* .project-link {
+.project-padding {
+    padding: 60px 0;
+}
+
+.filler-block-right {
+    height: 500px;
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+}
+
+.filler-block {
+    background: #fff;
+    opacity: 0.4;
+}
+
+.project-2 .box {
+    grid-column: 2 / span 10;
+    grid-row: 1;
+    width: 100%;
+}
+
+.project-2 .project-info {
+    grid-column: 2 / span 10;
+    grid-row: 2 / span 1;
+}
+
+.project-info {
+    align-self: center;
+    background: #fff;
+    padding: 20px 20px 30px 20px;
+    justify-items: center;
+}
+
+.small-title {
+    font-family: "europa", serif;
+    color: #3f3f3f;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 0;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.project-link {
     text-decoration: none;
     border-bottom: 2px solid #b00f24;
     padding: 5px 0;
@@ -386,13 +435,9 @@ img.about-image {
     transition: .2s;
 }
 
-p.project-text {
-    background: #fff;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: .2em;
-    text-transform: uppercase;
-}  */
+.project-pic {
+    max-width: 100%;
+}
 
 
 /***************************************
