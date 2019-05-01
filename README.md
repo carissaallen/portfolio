@@ -10,5 +10,8 @@ You know those awesome website templates you can find all over the internet? Thi
 * Bootstrap 4
 * JavaScript
 
+# Dev Resources
+* [SVG Icons](https://iconmonstr.com/)
+
 # Design Inspiration
 * [Milk Is Nice](https://milkisnice.com/)
