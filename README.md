@@ -8,6 +8,7 @@ You know those awesome website templates you can find all over the internet? Thi
 * HTML5
 * CSS3
 * Bootstrap 4
+  * Navigation bar only
 * JavaScript
 
 # Dev Resources
