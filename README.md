@@ -7,8 +7,7 @@ You know those awesome website templates you can find all over the internet? Thi
 # Built With
 * HTML5
 * CSS3
-* Bootstrap 4
-  * Navigation bar only
+* Bootstrap 4 (navbar only)
 * Express
 * JavaScript
 
