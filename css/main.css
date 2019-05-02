@@ -513,22 +513,6 @@ img.about-image {
     }
 }
 
-@mixin for-phone-only {
-    @media only screen and (max-width: 599px) {
-        p.titles {
-            font-size: 14px;
-        }
-        .nav-link {
-            font-size: 16px;
-            font-weight: 600;
-        }
-        #title h1 {
-            font-size: 32px;
-            color: #fff;
-        }
-    }
-}
-
   /* about section media queries */
 
   @media only screen and (min-width: 1024px) {
