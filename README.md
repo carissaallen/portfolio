@@ -17,7 +17,7 @@ This website was deployed to Heroku and points to a custom Google Domain. The po
 
 # Dev Resources
 * [SVG Icons](https://iconmonstr.com/)
-* [Heroku](https://dashboard.heroku.com/apps);
+* [Heroku](https://dashboard.heroku.com/apps)
 
 # Design Inspiration
 * [Milk Is Nice](https://milkisnice.com/)
