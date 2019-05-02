@@ -1,6 +1,7 @@
 // server.js - portfolio route module
 
 const express = require('express');
+const port = process.env.PORT;
 const app = express();
 const router = express.Router();
 const path = __dirname + '/views/';
@@ -24,7 +25,7 @@ router.get('/contact', function(req, res) {
 });
 
 app.use('/', router);
-app.listen(process.env.port || 3000);
+app.listen(port);
 
 // future work: 
 // should add error page to handle erroneous requests--
