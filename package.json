@@ -1,8 +1,11 @@
 {
   "name": "fullstack-portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "11.14.0"
+  },
   "description": "You know those awesome website templates you can find all over the internet? This isn't that. This website represents my story, showcases my work, and demonstrates what I am capable of--and the code is written by yours truly.",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "express":"*",
     "body-parser":"*",
@@ -21,5 +24,5 @@
   "bugs": {
     "url": "https://github.com/carissaallen/portfolio/issues"
   },
-  "homepage": "https://github.com/carissaallen/portfolio#readme"
+  "homepage": "https://github.com/carissaallen/portfolio"
 }
