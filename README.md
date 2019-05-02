@@ -15,9 +15,10 @@ You know those awesome website templates you can find all over the internet? Thi
 
 This website was deployed to Heroku and points to a custom Google Domain. The portfolio can be found at [carissa.io](carissa.io).
 
-# Dev Resources
-* [SVG Icons](https://iconmonstr.com/)
-* [Heroku](https://dashboard.heroku.com/apps)
+# Dev & Design Resources
+* [SVG Icons](https://iconmonstr.com/)  | _great resource to find icons_
+* [Heroku](https://dashboard.heroku.com/apps) | _free deployment_
+* [Unsplash](https://unsplash.com/) | _quality images for website design_
 
 # Design Inspiration
 * [Milk Is Nice](https://milkisnice.com/)
