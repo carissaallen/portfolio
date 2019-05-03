@@ -678,6 +678,20 @@ img.about-image {
     }
 }
 
+/* contact media queries */
+@media only screen and (min-width: 1024px) {
+    #contact .contact-main-title {
+        font-size: 90px;
+        line-height: 1.4;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #contact .contact-main-title h2 {
+        font-size: 100px;
+    }
+}
+
 /* element media queries */
 
 @media only screen and (min-width: 768px) {
