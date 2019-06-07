@@ -6,7 +6,7 @@
   <!-- standard page requirements
   ========================================= -->
   <meta charset="utf-8">
-  <title>Blog - Carissa Allen - Full Stack Developer</title>
+  <title>Blog Post - Carissa Allen - Full Stack Developer</title>
   <meta name="description" content="The Digital & Design portfolio of Carissa Allen, a Full Stack Developer." />
 
   <!-- dns-prefetch
@@ -89,12 +89,24 @@
       <div class="row">
         <div class="title-main">
           <div class="col-12">
-            <h1>Blog</h1>
-            <% for(let i = 0; i < posts.length; i++) { %>
-              <article>
-                <p><%= posts[i].body %></p>
-              </article>
-              <% } %>
+            <h1>Create a Blog Post</h1>
+            <form action="add_post" method="POST">
+              <div class="row">
+                <div class="col-12">
+                <textarea name="title"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                <textarea name="body"></textarea>
+                </div>
+              </div>
+                <div class="row">
+                  <div class="col-12">
+                <input type="submit" value="Add Post" class="btn btn-dark">
+                  </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
