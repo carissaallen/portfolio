@@ -20,6 +20,10 @@ router.get('/portfolio', function(req, res) {
     res.sendFile(path + 'portfolio.html');
 });
 
+router.get('/blog', function(req, res) {
+    res.sendFile(path + 'blog.html');
+});
+
 router.get('/contact', function(req, res) {
     res.sendFile(path + 'contact.html');
 });
