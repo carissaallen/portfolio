@@ -1,3 +1,69 @@
 /***************************************
 *  elements
 ***************************************/
+blockquote {
+    padding: 30px 30px;
+}
+
+pre {
+    font-size: 12px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    padding-top: 15px;
+}
+
+/***************************************
+*  blog post
+***************************************/
+.blog-post-title {
+    padding-top: 50px;
+}
+
+.date-created {
+    opacity: .7;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.quote-icon {
+    width: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 14px;
+}
+
+.quote-wrapper {
+    margin: 15px 50px;
+}
+
+.source-code a {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #b00f24;
+}
+
+.source-description {
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.tags-wrapper {
+    margin-top: 30px;
+}
+
+.tag {
+    font-size: 10px;
+    margin-right: 5px;
+    padding: 3px 5px;
+    background-color: #eeeeee;
+}
+
+.white-box {
+    padding: 20px 10px;
+}

@@ -55,8 +55,7 @@
   <!-- navbar
   =========================================================================== -->
   <nav class="navbar navbar-expand-md navbar-light navbar-custom">
-    <a href="http://www.carissa.io" class="navbar-left"><img class="logo"
-        src="../images/logo/icon-initials.jpg"></a>
+    <a href="http://www.carissa.io" class="navbar-left"><img class="logo" src="../images/logo/icon-initials.jpg"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -71,8 +70,8 @@
         <li class="nav-item ml-auto">
           <a class="nav-link" href="../images/carissa-software-engineer-resume.pdf" target="_blank">Resume</a>
         </li>
-        <li class="nav-item active ml-auto">
-          <a class="nav-link" href="/blog">Blog</a>
+        <li class="nav-item ml-auto">
+          <a class="nav-link active" href="/blog">Blog</a>
         </li>
         <li class="nav-item ml-auto">
           <a class="nav-link" href="/contact">Contact</a>
@@ -99,6 +98,207 @@
         </div>
       </div>
     </header>
+    <div class="container">
+      <!-- <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+              <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
+              <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
+              <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+            </div>
+          </div> -->
+
+      <!-- <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">
+                    <a class="text-dark" href="#">Featured post</a>
+                  </h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#">Continue reading</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      <main role="main" class="container">
+        <div class="row">
+          <div class="col-md-8 blog-main">
+
+            <div class="blog-post">
+              <h2 class="blog-post-title">Firsts.</h2>
+              <p class="blog-post-meta date-created">June 6, 2019 by <a href="#">Carissa</a></p>
+              <br>
+              <p>
+                For our first full-stack web application, my partner and I brainstormed a project
+                that we felt would be reasonable to accomplish within our three-week deadline, but would
+                also give us the ability to implement additional features in the future. Plus, we wanted
+                to build something we would both use and enjoy.
+              </p>
+              <br>
+              <p>
+                Finally, we settled on a music application. Our moon shot was to generate a playlist
+                based on the user's mood, but we decided to start with generating a new playlist based
+                on the user's favorite artist, song, or genre.
+              </p>
+              <br>
+              <h3>Tech Stack</h3>
+              <p>
+                We used HTML5 to create the basic structure for our project, and CSS3 to style it.
+                Bootstrap 4 provided a lovely navigation bar and some minor layout adjustments, but
+                everything else was our own creation. We used jQuery for event handling and animating text.
+                Express made our lives easier on the backend by providing simple route management and session
+                data. We even incorporated Mustache for templating. Of course, this project would not
+                have been a hit without Spotify's Web API.
+              </p>
+              <br>
+              <p>
+                We deployed our application using the Heroku CLI, and set up automatic deployments on the master branch.
+              </p>
+              <hr>
+              <h3>Highlight Reel</h3>
+              <p>
+                One of my favorite features is a simple one: we used an <code>iframe</code> tag to embed
+                a music video from YouTube as the background for our landing page.
+              </p>
+              <pre>
+                <code>
+          &lt;iframe frameborder="0" height="100%" width="100%"
+            src="https://www.youtube.com/embed/7BJ7MDOmLPE?
+            &start=14
+            &autoplay=1
+            &controls=0
+            &showinfo=0
+            &autohide=1
+            &mute=1
+            &loop=1
+            &playlist=7BJ7MDOmLPE"
+            allow="accelerometer; autoplay; encrypted-media; 
+            gyroscope; picture-in-picture"&gt;
+          &lt;/iframe&gt;
+                </code>
+              </pre>
+              <p>
+                This did come with a challenge, however. After a little CSS and <emphasis>a lot</emphasis>
+                of research, I was able to figure out how to maintain the 16:9 aspect ratio of the video,
+                and to center it appropriately on the page. Additionally, since mobile devices do not support
+                autoplay, I implemented media queries to display a background image instead of the video on mobile
+                devices.
+              </p>
+              <h3>Failing Forward</h3>
+              <p>
+                Turns out, we need to know whether the user is submitting an artist, song, or
+                genre in order to provide recommendations using Spotify API. Our original idea
+                was to allow the user to enter an artist, song, or genre, and then we would provide a
+                recommended playlist based on that input. However, the Spotify API must {\em know}
+                which seed value it is receiving in order to work. Our solution to this challenge
+                was to add a toggle switch to the main page, which allows the user to ``toggle'' between
+                artists and songs. This way, the user can choose whether they want to get a playlist
+                based on their favorite artist or song--thus expanding their options a bit without
+                cluttering the main page.
+              </p>
+              <div class="quote-wrapper">
+                <blockquote>
+                  <p>
+                    <img src="../images/icons/iconmonstr-quote-5.svg" class="quote-icon">If you think responsive's
+                    simple,
+                    I feel bad for you son. We got 99 viewports, but the iPhone's just one.
+                    <br>
+                    <div class="quote-author">
+                      &mdash;<a href="https://twitter.com/jbrewer?lang=en">Josh Brewer</a>
+                    </div>
+                  </p>
+                </blockquote>
+              </div>
+              <p>
+                Compatibility with browsers and devices. One of the most challenging parts of this
+                project was making sure each page presented well on different browsers, laptop/desktop
+                sizes, and on mobile. We created a toggle switch for the user, which did not work on
+                mobile. Sometimes page layout looked differently (in a bad way) on the other teammate's
+                laptop. Our background video does not autoplay on mobile browsers. Although we attempted
+                to make our application mobile-friendly, there are a ton of different viewports to think
+                about, and we didn't quite get it all worked out.
+              </p>
+
+              <h3>Ideas for Future Work</h3>
+              <p>
+                I would enjoy adding autosuggestion capability to the input field. Ideally, I would
+                implement this using a React component so I could get the chance to experience React.
+              </p>
+              <br>
+              <p>
+                Another feature I would like to implement is the ability to sort the playlist
+                based on various audio features, such as tempo, danceability, acousticness, etc.
+              </p>
+              <br>
+              <p>
+                One of our users suggested that it would be nice to be able to see whether they were
+                logged into Spotify on the main page.
+              </p>
+            </div>
+          </div> <!-- / main blog -->
+
+          <aside class="col-md-4 blog-sidebar white-box">
+            <div class="p-3 mb-3 bg-light rounded">
+              <h4 class="font-italic">Source Code</h4>
+              <p class="mb-0 source-code"><strong><a href="https://github.com/carissaallen/music-app">Discover
+                    Music</a></strong></p>
+              <blockquote>
+                <p class="source-description">Generates a new music playlist for the user based on his or her favorite
+                  artist or song.</p>
+                <div class="tags-wrapper">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">Bootstrap 4</span>
+                  <span class="tag">jQuery</span>
+                  <span class="tag">Express</span>
+                  <span class="tag">Mustache</span>
+                </div>
+              </blockquote>
+            </div>
+            </aside>
+
+            <!-- <div class="p-3">
+                <h4 class="font-italic">Archives</h4>
+                <ol class="list-unstyled mb-0">
+                  <li><a href="#">March 2014</a></li>
+                  <li><a href="#">February 2014</a></li>
+                  <li><a href="#">January 2014</a></li>
+                  <li><a href="#">December 2013</a></li>
+                  <li><a href="#">November 2013</a></li>
+                  <li><a href="#">October 2013</a></li>
+                  <li><a href="#">September 2013</a></li>
+                  <li><a href="#">August 2013</a></li>
+                  <li><a href="#">July 2013</a></li>
+                  <li><a href="#">June 2013</a></li>
+                  <li><a href="#">May 2013</a></li>
+                  <li><a href="#">April 2013</a></li>
+                </ol>
+              </div> -->
+        </div><!-- / row -->
+      </main><!-- / container -->
+
+      <!-- Bootstrap core JavaScript
+        ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+      <script src="../../../../assets/js/vendor/popper.min.js"></script>
+      <script src="../../../../dist/js/bootstrap.min.js"></script>
+      <script src="../../../../assets/js/vendor/holder.min.js"></script>
+      <script>
+        Holder.addTheme('thumb', {
+          bg: '#55595c',
+          fg: '#eceeef',
+          text: 'Thumbnail'
+        });
+      </script>
   </section>
 
 
