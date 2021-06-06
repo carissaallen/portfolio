@@ -11,9 +11,9 @@ You know those awesome website templates you can find all over the internet? Thi
 
 # Deployment 
 
-This website was deployed to Heroku and points to a custom Google Domain. 
+This website was deployed to Heroku and points to a custom domain.
 
-The portfolio can be found at [carissamae.com](carissamae.com). :zap:
+The portfolio can be found at [carissamae.com](carissamae.com). 🌮
 
 # Dev & Design Resources
 * [Heroku](https://dashboard.heroku.com/apps) | _free deployment_
