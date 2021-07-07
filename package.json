@@ -8,8 +8,10 @@
   "description": "You know those awesome website templates you can find all over the internet? This isn't that. This website represents my story, showcases my work, and demonstrates what I am capable of--and the code is written by yours truly.",
   "main": "server.js",
   "dependencies": {
-    "express":"*",
-    "body-parser":"*"
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "*",
+    "mongoose": "^5.5.13"
   },
   "devDependencies": {},
   "scripts": {

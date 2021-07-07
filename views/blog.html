@@ -84,6 +84,20 @@
   <!-- blog
   =========================================================================== -->
   <section id="blog">
+    <header>
+      <div class="row">
+        <div class="title-main">
+          <div class="col-12">
+            <h1>Blog</h1>
+            <% for(let i = 0; i < posts.length; i++) { %>
+              <article>
+                <p><%= posts[i].body %></p>
+              </article>
+              <% } %>
+          </div>
+        </div>
+      </div>
+    </header>
     <div class="container">
       <!-- <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
             <div class="col-md-6 px-0">
@@ -295,8 +309,6 @@
 
   <!-- scripts
   =========================================================================== -->
-  <script type="text/javascript"
-    src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
 </body>
 
 </html>
