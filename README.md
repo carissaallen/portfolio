@@ -13,7 +13,7 @@ You know those awesome website templates you can find all over the internet? Thi
 
 This website was deployed to Heroku and points to a custom domain.
 
-The portfolio can be found at [carissamae.com](carissamae.com). 🌮
+The portfolio can be found at [carissamae.com](carissamae.com).
 
 # Dev & Design Resources
 * [Heroku](https://dashboard.heroku.com/apps) | _free deployment_
