@@ -1,6 +1,6 @@
 # A portfolio of my work.
 
-You know those awesome website templates you can find all over the internet? This isn't that. This website represents my story, showcases my work, and demonstrates what I am capable of--and the code is written by yours truly.
+This website represents my story, showcases my work, and demonstrates my creativity--both on the frontend and the backend. I will continue to iterate on this website to make improvements when I can.
 
 # Built With
 * HTML5
